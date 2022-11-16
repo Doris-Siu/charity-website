@@ -16,17 +16,19 @@
 
 <body>
   <header>
-    <img id="logo" src="/Vector/logo.png"></img>
+    <img id="logo" style="cursor: pointer;" src="/Vector/logo.png"></img>
     <label>Where do you like to donate?</label>
-    <select>
+    <select id ="bar">
       <option></option>
-      <option>Technology</option>
-      <option>Animal</option>
-      <option>Recycling</option>
+      <option value="techOpt">Technology</option>
+      <option value="aniOpt">Animal</option>
+      <option value="recOpt">Recycling</option>
     </select>
   </header>
 
-  <main>
+  <main id = "mainContent">
+    <div id="container">
+
     <h1>Hope For The Hopeless</h1>
     <div id="hero"> </div>
     <p id="hero-text">
@@ -40,7 +42,7 @@
       them create a happier, cleaner and more educated society. Remember: Even
       the smallest donations can make huge differences!
     </p>
-    <section>
+    <section class ="section">
       <div class="content">
         <h2> Technology</h2>
         <img class="content_image" src="/Vector/tech_img_.png" alt="technology_image">
@@ -49,7 +51,9 @@
           <br>
           <br>
         
-          <span> Find more </span>
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('techOpt')"> Find more </span>
         </p>
       </div>
       <div class="content">
@@ -60,7 +64,9 @@
           all share.
           <br>
           
-          <span> Find more </span>
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('aniOpt')"> Find more </span>
 
       </div>
       <div class="content">
@@ -71,10 +77,15 @@
           <br>
         
 
-          <span> Find more </span>
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('recOpt')"> Find more </span>
+        </p>
       </div>
 
     </section>
+    
+    </div>
   </main>
 
   <footer>

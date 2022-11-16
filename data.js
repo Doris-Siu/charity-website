@@ -1,3 +1,12 @@
+const headers = {
+  techOpt:
+    "The technology section helps refugees, the poor, and unprivileged people to learn a useful skill, gain their confidence and make a better future for themselves",
+  aniOpt:
+    "The Animal section provides food, shelter and medical care to homeless animals. We respect the lives of all animals and believe that all creatures deserve to live peacefully on the planet we all share.",
+  recOpt:
+    "The Recycle section lists several NGOs and organizations that work in underdeveloped countries to recycle the garbage and create jobs for the locals.",
+};
+
 function getAllAnimals() {
   return [
     {
