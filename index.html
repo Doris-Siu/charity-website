@@ -16,14 +16,17 @@
 
 <body>
   <header>
-    <img id="logo" style="cursor: pointer;" src="/Vector/logo.png"></img>
+    <div class="logo-div"> <img id="logo" style="cursor: pointer;" src="/Vector/logo.png"></img> </div>
+    
+    <div class="label-select"> 
     <label>Where do you like to donate?</label>
     <select id ="bar">
       <option></option>
       <option value="techOpt">Technology</option>
-      <option value="aniOpt">Animal</option>
+      <option value= "aniOpt">Animal</option>
       <option value="recOpt">Recycling</option>
     </select>
+    </div>
   </header>
 
   <main id = "mainContent">
@@ -31,7 +34,7 @@
 
     <h1>Hope For The Hopeless</h1>
     <div id="hero"> </div>
-    <p id="hero-text">
+    <p id="hero-text" >
       We make a living by what we get. We make a life by what we give.
     </p>
     <p id="about">
@@ -63,6 +66,7 @@
           respect the lives of all animals and believe that all creatures deserve to live peacefully on the planet we
           all share.
           <br>
+          <br>
           
           <span style=" cursor:pointer;
      color:blue;
@@ -89,14 +93,15 @@
   </main>
 
   <footer>
-    <div>
+    <div  id="footer-title">
       <p class="footer-text">Contact Us</p>
       <p class="footer-text">Example@gmail.com</p>
       <p class="footer-text">016178674566</p>
     </div>
 
 
-    <div><img src="/Vector/ig.png"></img>
+    <div class="footer-img">
+      <img src="/Vector/ig.png"></img>
       <img src="/Vector/twitter.png"></img>
       <img src="/Vector/fb.png"></img>
     </div>
