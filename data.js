@@ -17,7 +17,7 @@ function getAllAnimals() {
       image:
         "https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2261/VIER_PFOTEN_2021-02-21_00001.jpg?v=1654872782000",
       summary:
-        "Every year, thousands of dogs and cats are mercilessly killed for the dog and cat meat trade in Southeast Asia. This includes both stray animals and family pets, who are often stolen from their gardens or snatched while wandering outside. FOUR PAWS is fighting tirelessly to put an end to this cruel trade.",
+        "Every year, thousands of dogs and cats are mercilessly killed for the dog and cat meat trade in Southeast Asia.",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ function getAllAnimals() {
       image:
         "https://www.bluecross.org.uk/sites/default/files/d8/styles/theme_feature_large/public/2020-05/BX137684_Billy-Boo-Education-Dog-2018-02-26-0037-lpr.jpg?itok=Bq0C0EZz",
       summary:
-        "Our vision is that every pet will one day enjoy a healthy life in a happy home. We aim to improve the welfare and quality of life for all pets by developing knowledge, attitudes and behaviours through education. One of the ways in which we do this is through free talks to primary schools and youth groups.",
+        "Our vision is that every pet will one day enjoy a healthy life in a happy home. We aim to improve the welfare and quality of life for all pets by developing knowledge, attitudes and behaviours through education.",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ function getAllAnimals() {
       image:
         "https://www.dogstrust.org.uk/images/1080x810/assets/2022-05/Web%20Image-Dalmationdog_outside_cardiff_dogstrust%20(1).jpg",
       summary:
-        "Dogs Trust supports projects around the globe — in places including Thailand, India and Sri Lanka — enable us to share our knowledge and expertise, helping to make big, positive and sustainable changes to dog welfare.",
+        "Dogs Trust supports projects around the globe — in places including Thailand, India and Sri Lanka ",
     },
   ];
 }
@@ -80,7 +80,7 @@ function getAllRecycles() {
       image:
         "https://ismwaste.co.uk/images/home/rear-end-loading-skip-collection.jpg",
       summary:
-        "Whether large or small, every business needs reliable waste management services, and at ISM Waste & Recycling, we have you covered! Our award-winning waste management and recycling services are available to companies of all sizes across Greater Manchester and Lancashire.",
+        "Whether large or small, every business needs reliable waste management services, and at ISM Waste & Recycling",
     },
     {
       id: 6,
@@ -90,7 +90,7 @@ function getAllRecycles() {
       image:
         "https://handygrab.co.uk/wp-content/uploads/2021/10/xPHOTO-2021-10-01-12-50-14-1500x630.jpg.pagespeed.ic.Oc9OnAdeis.webp",
       summary:
-        "Grab hire is becoming the most cost effective alternative to skips. My Grab Wagon can hold approximately TWO large skips and costs similar to one large building skip. Check out our Local customer ratings here on Yell.",
+        "Grab hire is becoming the most cost effective alternative to skips. My Grab Wagon can hold approximately TWO large skips and costs similar to one large building skip. ",
     },
   ];
 }
@@ -116,7 +116,7 @@ function getAllTechs() {
       image:
         "https://cornerstonecds.org.uk/wp-content/uploads/2022/03/IMG-4006.jpg",
       summary:
-        "We are also here to help your school/college/group in its mission to put Caritas into action too by providing resources and opportunities for pupils/students (primary, high school or 6th Form) to engage in social action projects",
+        "We are also here to help your school/college/group in its mission to put Caritas into action too by providing resources and opportunities for pupils/students ",
     },
     {
       id: 9,
@@ -126,7 +126,7 @@ function getAllTechs() {
         "We can learn from and inspire each other, and empower the next generation to achieve success.",
       image: "https://codingblackfemales.com/img/events/bbc.jpeg",
       summary:
-        "Coding Black Females was created in 2017. We are a non-profit organisation, and our primary aim is to provide opportunities for Black female developers to develop themselves, meet familiar faces, network, receive support and build relationships through having regular meetups.",
+        "Coding Black Females was created in 2017. We are a non-profit organisation, and our primary aim is to provide opportunities for Black female developers to develop themselves",
     },
   ];
 }
