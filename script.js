@@ -31,6 +31,7 @@ function showTech(selValue) {
 
   const divEl1 = document.createElement("p");
   divEl1.id = "hero-text";
+  divEl1.classList.add("hero-text-middle");
   divEl1.innerText = headers[selValue];
   containEl.appendChild(divEl1);
 
