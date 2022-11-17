@@ -91,10 +91,10 @@ h1 {
 
 #hero-text {
   position: absolute;
-  width: 576px;
-  height: 315px;
+  width: 1200px;
+  /* height: 50px; */
   left: 64px; 
-  top: 349px;
+  top: 450px;
    /* top: 50%; */
   /* left: 50%; */
    /* transform: translate(-50%, -50%); */
@@ -113,7 +113,8 @@ text-align: center;
   top: 50%; 
  margin-left: 50%;
    transform: translate(-50%, -50%);
-   height: 63px;
+   height: 50px;
+   width: 400px;;
 } 
 #about {
   background: rgba(86, 43, 8, 0.74);
@@ -128,7 +129,7 @@ text-align: center;
   text-align: justify;
   font-weight: 600;
   font-size: 2rem;
-  line-height: 30px;
+  line-height: 40px;
   padding: 70px 60px 70px 60px;
   color: #ffffff;
   /* border: 2px solid black; */
@@ -156,7 +157,7 @@ text-align: center;
   flex-direction: row;
   display: grid;
   justify-items: center;
-  grid-template-rows: 50px 1fr 150px;
+  grid-template-rows: 100px 250px 150px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "title"
@@ -174,7 +175,7 @@ text-align: center;
   font-size: 2rem;
   line-height: 24.2px;
   position: absolute;
-  width: 114px;
+  width: 400px;
   margin-top: 20px;
 }
 
@@ -215,6 +216,7 @@ height: 95px; */
   /* border: 2px solid orange; */
   margin-left: 21px;
   margin-right: 27px;
+  margin-top: 20px;
 }
 footer {
   display: flex;
