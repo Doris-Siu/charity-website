@@ -61,7 +61,7 @@ function getAllRecycles() {
       image:
         "https://lh3.googleusercontent.com/p/AF1QipMxp1PGyL-qIhbkoTVhEQChCqKiAvw9wMTB4EzB=w1080-h608-p-no-v0",
       summary:
-        "We are a well known skip hire service in Halifax that has been established for many years we specialize in MINI and MIDI skips. We provide these to both public and commercial users.Skip Sizes: Skips come in a range of sizes, dimensions and shapes, with selection different accessories available. Choosing the right size and type of skip for your requirements can save you time and money. Our helpful skip sizes guide will ensure that you choose the right skip for your requirements.Skip Hire Sizes throughout the UK One of the reasons that skips are so popular in the UK is the array of sizes available. Having a large selection of shapes and dimensions ensures that skips are a suitable waste removal solution for any number of jobs, from small DIY home improvements to large industrial projects. We can provide all available skip sizes, ranging from 2-yard mini skip right through to a 40-yard roll-on roll-off skip. There are 6 common skip categories, which are determined by size and shape: mini Midi Skips, Builders Skips, Maxi Skips, roll on off skips and enclosed skips.",
+        "We are a well known skip hire service in Halifax that has been established for many years we specialize in MINI and MIDI skips. We provide these to both public and commercial users. ",
     },
     {
       id: 5,
@@ -80,7 +80,7 @@ function getAllRecycles() {
       image:
         "https://ismwaste.co.uk/images/home/rear-end-loading-skip-collection.jpg",
       summary:
-        "Whether large or small, every business needs reliable waste management services, and at ISM Waste & Recycling, we have you covered! Our award-winning waste management and recycling services are available to companies of all sizes across Greater Manchester and Lancashire. We are  - Environmentally friendly,provieds - Hassle-free collections, Free, no-obligation quote, 90% of waste recycled, All types of waste, Excellent customer service",
+        "Whether large or small, every business needs reliable waste management services, and at ISM Waste & Recycling, we have you covered! Our award-winning waste management and recycling services are available to companies of all sizes across Greater Manchester and Lancashire.",
     },
     {
       id: 6,
@@ -90,7 +90,7 @@ function getAllRecycles() {
       image:
         "https://handygrab.co.uk/wp-content/uploads/2021/10/xPHOTO-2021-10-01-12-50-14-1500x630.jpg.pagespeed.ic.Oc9OnAdeis.webp",
       summary:
-        "Grab hire is becoming the most cost effective alternative to skips. My Grab Wagon can hold approximately TWO large skips and costs similar to one large building skip. Check out our Local customer ratings here on Yell.com We have many more reviews on other platforms Like Facebook and Google but I think you will get a good idea of just how happy our customers are from just one site. Work out just how much money your business can save by switching to a reliable Grab Hire service.",
+        "Grab hire is becoming the most cost effective alternative to skips. My Grab Wagon can hold approximately TWO large skips and costs similar to one large building skip. Check out our Local customer ratings here on Yell.",
     },
   ];
 }
@@ -116,7 +116,7 @@ function getAllTechs() {
       image:
         "https://cornerstonecds.org.uk/wp-content/uploads/2022/03/IMG-4006.jpg",
       summary:
-        "We are also here to help your school/college/group in its mission to put Caritas into action too by providing resources and opportunities for pupils/students (primary, high school or 6th Form) to engage in social action projects, campaigns and fundraising activities, which will help them to live their faith and develop leaders in social justice. This of course will help your school/college to meet the latest inspection requirements too!",
+        "We are also here to help your school/college/group in its mission to put Caritas into action too by providing resources and opportunities for pupils/students (primary, high school or 6th Form) to engage in social action projects",
     },
     {
       id: 9,
