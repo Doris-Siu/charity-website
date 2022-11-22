@@ -1,13 +1,7 @@
-# TV Show DOM Project
+# Buddy Project | Charity website
 
-A starting point for CYF's TV show DOM project
+A starting point for CYF's Buddy Project | Charity website
 
-The requirements for the project are here:
+Build a Minimal Viable Product.
 
-https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
-
-## Solution
-
-The solution to this project will be given to you after you have completed it. You will be able to find the solution here
-
-https://github.com/CodeYourFuture/tv-show-dom-project-solution
+Keep in mind your MVP should be completed by 19 November.

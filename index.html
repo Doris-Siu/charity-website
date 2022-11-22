@@ -1,21 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <div id="root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buddy Project | Charity website</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Judson&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Judson&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-div"> <img id="logo" style="cursor: pointer;" src="/Vector/logo.png"></img> </div>
+    
+    <div class="label-select"> 
+    <label>Where do you like to donate?</label>
+    <select id ="bar">
+      <option></option>
+      <option value="techOpt">Technology</option>
+      <option value= "aniOpt">Animal</option>
+      <option value="recOpt">Recycling</option>
+    </select>
+    </div>
+  </header>
+
+  <main id = "mainContent">
+    <div id="container">
+
+    <h1>Hope For The Hopeless</h1>
+    <div id="hero"> </div>
+    <p id="hero-text" >
+      We make a living by what we get. We make a life by what we give.
+    </p>
+    <p id="about">
+      Our team intends to identify verified charitable organizations that are
+      actually helping us have a better world. We have divided these websites
+      into three categories: technology, animals and recycling. You can choose
+      the division which you find most important and make donations to help
+      them create a happier, cleaner and more educated society. Remember: Even
+      the smallest donations can make huge differences!
+    </p>
+    <section class ="section">
+      <div class="content">
+        <h2> Technology</h2>
+        <img class="content_image" src="/Vector/tech_img_.png" alt="technology_image">
+        <p class="content-summary">The technology section helps refugees, the poor, and unprivileged people to learn a
+          useful skill, gain their confidence and make a better future for themselves.
+          <br>
+          <br>
+          
+        
+        
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('techOpt')"> Find more </span>
+        </p>
+      </div>
+      <div class="content">
+        <h2> Animals</h2>
+        <img class="content_image"  src="/Vector/animal_img.png" alt="animal_image">
+        <p class="content-summary">The Animal section provides food, shelter and medical care to homeless animals. We
+          respect the lives of all animals and believe that all creatures deserve to live peacefully on the planet we
+          all share.
+          <br>
+          <br>
+          
+        
+          
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('aniOpt')"> Find more </span>
+
+      </div>
+      <div class="content">
+        <h2> Recycling </h2>
+        <img class="content_image" src="/Vector/recycleing_img.png" alt="recycling_image">
+        <p class="content-summary">The Recycle section lists several NGOs and organizations that work in underdeveloped countries to recycle the garbage and create jobs for the locals.
+          <br>
+          <br>
+          
+        
+
+          <span style=" cursor:pointer;
+     color:blue;
+     text-decoration:underline;" onclick="selectionChange('recOpt')"> Find more </span>
+        </p>
+      </div>
+
+    </section>
+    
+    </div>
+  </main>
+
+  <footer>
+    <div  id="footer-title">
+      <p class="footer-text">Contact Us</p>
+      <p class="footer-text">Example@gmail.com</p>
+      <p class="footer-text">016178674566</p>
     </div>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
 
-    <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
-  </body>
+    <div class="footer-img">
+      <img src="/Vector/ig.png"></img>
+      <img src="/Vector/twitter.png"></img>
+      <img src="/Vector/fb.png"></img>
+    </div>
+
+
+  </footer>
+
+  <script src="data.js"></script>
+
+  <!-- Loads YOUR javascript code -->
+  <script src="script.js"></script>
+</body>
+
 </html>
